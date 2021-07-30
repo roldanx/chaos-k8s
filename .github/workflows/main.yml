@@ -10,7 +10,7 @@ jobs:
         uses: ibiqlik/action-yamllint@v3
         with:
           file_or_dir: .
-        config_data: |
-          rules:
-            line-length:
-              max: 180
+          config_data: |
+            rules:
+              line-length:
+                max: 180
